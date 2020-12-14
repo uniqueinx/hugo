@@ -15,6 +15,6 @@ draft: false
 In my arch when adding the connection via nm-applet ui on arch
 connection keeps closing for some reason or some hidden param that is added by the gui. So, I use this command
 
-```
+```shell
  nmcli con add type ethernet con-name <connection-name> ifname enp8s0 ip4 10.0.0.1/24 gw4 10.0.0.1
 ```
